@@ -1,0 +1,75 @@
+body{
+    color: black;
+    background-color: paleturquoise;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* p{
+    font-family: italic;
+    font-size: xx-large;
+    font-weight: bolder;
+} */
+/* img{ 
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+} */
+video{
+    height: 500px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type: disc;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+h1{
+    padding: 50px;
+    border: 10px blue;
+}
+button:hover{
+    background: lightseagreen;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+#p1{
+    font-style: normal;
+    font-weight: bolder;
+}
+#p2{
+    font-style: italic;
+}
+.pclass{
+    font-size: x-large;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.flowers{
+    display: grid;
+}
+#flowers1{
+    grid-row: 1/2;
+}
+#flowers2{
+    grid-row: 1/2;
+}
+#flowers3{
+    grid-row: 2/3;
+}
+#flowers4{
+    grid-row: 2/3;
+}
