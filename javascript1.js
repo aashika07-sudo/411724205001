@@ -1,22 +1,26 @@
-console.log("Print statement");
-const a=20;
-const b=30;
-console.log(a+b);
-const str = "Aashika";
-console.log(str);
-const arr = [1,2.3,"String", false];
-console.log(arr);
-for(let i=0;i<arr.length;i++){
-    console.log(arr[i]);
-}
-arr[1]=3.1;
-console.log(arr[1]);
-arr.push("Aashika");
-console.log(arr);
-arr.pop();
-console.log(arr);
+// console.log("Print statement");
+// const a=20;
+// const b=30;
+// console.log(a+b);
+// const str = "Aashika";
+// console.log(str);
+// const arr = [1,2.3,"String", false];
+// console.log(arr);
+// for(let i=0;i<arr.length;i++){
+//     console.log(arr[i]);
+// }
+// arr[1]=3.1;
+// console.log(arr[1]);
+// arr.push("Aashika");
+// console.log(arr);
+// arr.pop(); 
+// console.log(arr);
 
-function example(){
+const one = document.getElementById("one");
+const two = document.getElementById("two");
+console.log(one+two);
+
+/*function example(){
      console.log("First Javascript Class")
 }
 
@@ -33,4 +37,4 @@ input.addEventListener("input", ()=>{
 const first = document.createElement("h1");
 first.textContent = "Some Texts";
 document.body.appendChild(first);
-first.remove()
+first.remove() */

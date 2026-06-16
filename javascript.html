@@ -1,12 +1,22 @@
 <html>
     <head>
-        <title>Javascript</title>
+        <title>🟨Javascript</title>
     </head>
     <body>
-        <p id="ptag" class="pclass">This is my fourth class</p>
+        <!-- <p id="ptag" class="pclass">This is my fourth class</p>
         <button onclick="alert('you clicked me')">click me</button>
         <input type="text" onchange="example()" id="input">
-        <p id = "inputField"></p>
+        <p id = "inputField"></p> -->
+        Enter 1st Num: <input id="one" type = "number"><br>
+        Enter 2nd Num: <input id="two" type = "number"><br>
+        <button onclick="add()">Add</button>
+        <script>
+            function add(){
+                let one = Number(document.getElementById("one").value);
+                let two = Number(document.getElementById("two").value);
+                console.log(one+two);
+            }
+        </script>
     </body>
     <script src="javascript1.js"></script>
-</html>
+</html> 
